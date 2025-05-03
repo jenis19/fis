@@ -1,22 +1,30 @@
-# Shopify Dawn Theme Customization
+# Shopify Theme Repository
 
-A customized version of the Dawn theme for Shopify with improved product page presentation.
+This repository contains the theme files for the Shopify store.
 
-## Features
+## Theme Structure
+- `assets/`: Contains all theme assets (CSS, JavaScript, images)
+- `config/`: Theme settings and configuration files
+- `layout/`: Theme layout templates
+- `sections/`: Reusable sections
+- `snippets/`: Reusable code snippets
+- `templates/`: Page templates
+- `locales/`: Translation files
 
-- Optimized product template
-- Enhanced image loading with fallbacks
-- Responsive design for all devices
-- Improved user experience
+## Development Setup
+1. Clone this repository
+2. Install Shopify CLI (if not already installed)
+3. Run `shopify theme dev` to start development server
 
-## Installation
+## Deployment
+To deploy changes to your Shopify store:
+1. Push changes to this repository
+2. Use Shopify CLI to deploy: `shopify theme push`
 
-To use this theme in your Shopify store:
-
-1. Download or clone this repository
-2. Upload the theme files to your Shopify store
-3. Customize as needed
+## Contributing
+1. Create a new branch for your changes
+2. Make your changes
+3. Submit a pull request
 
 ## License
-
-This project is based on Shopify's Dawn theme and follows its licensing terms. 
+This theme is private and proprietary. All rights reserved. 
